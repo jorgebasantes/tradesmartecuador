@@ -1,0 +1,121 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TradeSmart Ecuador: educación, estrategias y acceso a mercados globales para operar con responsabilidad." />
+  <title>TradeSmart Ecuador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="hero" id="inicio" aria-label="Encabezado principal TradeSmart Ecuador">
+    <video class="hero__video" autoplay muted loop playsinline>
+      <source src="tradesmart-intro.mp4" type="video/mp4" />
+      Tu navegador no soporta video HTML5.
+    </video>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <div class="hero__content container reveal">
+      <p class="hero__eyebrow">TradeSmart Ecuador</p>
+      <h1>Aprende a Operar Como un Profesional</h1>
+      <p class="hero__subheadline">Educación, Estrategias y Acceso a Mercados Globales</p>
+      <button id="scrollToLinks" class="btn btn--primary" type="button" aria-label="Ir a la sección de brokers">
+        Comienza Ahora
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="video" class="section section--video container reveal" aria-labelledby="video-title">
+      <h2 id="video-title">Mira Cómo Funciona</h2>
+      <article class="video-card">
+        <div class="video-card__player" data-video-slot="principal">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Video demostrativo TradeSmart Ecuador"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p class="video-card__note" data-analytics-slot="video-engagement">
+          Área lista para integrar eventos de analytics (play, tiempo visto y clics).
+        </p>
+      </article>
+    </section>
+
+    <section id="links" class="section section--affiliate container reveal" aria-labelledby="affiliate-title">
+      <h2 id="affiliate-title">Empieza a Operar Hoy</h2>
+
+      <div class="cards-grid">
+        <article class="trade-card" aria-label="Broker Deriv">
+          <h3>Deriv</h3>
+          <p>Plataforma avanzada con múltiples mercados.</p>
+          <a
+            class="btn btn--accent"
+            href="https://your-deriv-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir cuenta en Deriv en una nueva pestaña"
+          >
+            Abrir Cuenta en Deriv
+          </a>
+        </article>
+
+        <article class="trade-card" aria-label="Broker IQ Option">
+          <h3>IQ Option</h3>
+          <p>Interfaz intuitiva para traders modernos.</p>
+          <a
+            class="btn btn--accent"
+            href="https://your-iq-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir cuenta en IQ Option en una nueva pestaña"
+          >
+            Abrir Cuenta en IQ Option
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="confianza" class="section section--trust container reveal" aria-labelledby="trust-title">
+      <h2 id="trust-title">Confianza y Formación</h2>
+
+      <div class="trust-grid">
+        <article class="trust-item" aria-label="Seguridad">
+          <div class="trust-item__icon" aria-hidden="true">&#128737;&#65039;</div>
+          <h3>Seguridad</h3>
+        </article>
+
+        <article class="trust-item" aria-label="Educación">
+          <div class="trust-item__icon" aria-hidden="true">&#128216;</div>
+          <h3>Educación</h3>
+        </article>
+
+        <article class="trust-item" aria-label="Estrategia">
+          <div class="trust-item__icon" aria-hidden="true">&#128200;</div>
+          <h3>Estrategia</h3>
+        </article>
+      </div>
+
+      <p class="trust-copy">
+        El trading responsable requiere preparación, gestión del riesgo y disciplina. TradeSmart Ecuador promueve decisiones informadas antes de invertir.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer" aria-label="Pie de página">
+    <div class="container footer__content">
+      <p class="footer__title">TradeSmart Ecuador - Educación Financiera Responsable</p>
+      <p class="footer__disclaimer">El trading implica riesgo. Opera con responsabilidad.</p>
+      <div class="footer__whatsapp-slot" aria-label="Espacio para botón de WhatsApp"></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
